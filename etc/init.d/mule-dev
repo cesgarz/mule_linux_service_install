@@ -44,7 +44,7 @@ echo "Status service mule"
 $MULE_HOME/bin/mule -installLicense $2
 ;;
 *)
-echo "Usage: $0 {start|stop|restart|status|license}”
+echo "Usage: $0 {start|stop|restart|status|license}"
 exit 1
 ;;
 esac
